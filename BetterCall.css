@@ -1,0 +1,207 @@
+body {
+	background-color: black!important ;
+    color: #f8f9fa;
+    background-image: url(https://prb404.github.io/NEO/neo/img/matrix-neo-pattern-purple_555.gif);
+}
+
+.main-inner {
+    background: black;
+}
+
+.moremenu .nav-tabs {
+    background: black;
+}
+
+.moremenu .nav-link:hover,
+.moremenu .nav-link:focus {
+  border-color: transparent;
+  background-color: black;
+}
+
+a {
+    color: #00ff00;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: overline;
+}
+
+.format-tiles a.nav-link {
+    color: #00ff00!important;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #78db74;
+    background-color: #1d2125!important;
+    border-color: #dee2e6 #dee2e6 #78db74!important;
+}
+
+#page.drawers .main-inner {
+    background-color: #1e251d!important;
+}
+
+.secondary-navigation .navigation {
+    border-top: 1px solid #357a32!important;
+    border-bottom: 1px solid #78db74!important;
+    background-color: #000!important;
+}
+
+#region-main {
+    overflow-x: auto;
+    overflow-y: visible;
+    background-color: #1d2125;
+}
+
+.format-tiles #page .course-content ul li.section.main {
+    background-color: #000;
+}
+
+.format-tiles .course-content .section .activity:hover {
+    background-color: #000000;
+}
+
+.format-tiles:not(.editing) .course-content .icon, .format-tiles .iconpickericons .icon, .format-site .iconpickericons .icon {
+    color: #0c8714!important;
+}
+
+.format-tiles ul.tiles .tile h3 {
+    color: #ffffff!important;
+}
+
+.format-tiles .sectiontitle h2 {
+    color: #ffffff!important;
+}
+
+.format-tiles .course-content ul.tiles .tile.tile-hidden, .format-tiles .course-content ul.tiles .tile.tile-restricted {
+    border-top-color: #0c8714!important;
+}
+
+.format-tiles ul.tiles .tile.tile-hidden:hover, .format-tiles ul.tiles .tile-restricted.tile-clickable:hover {
+    opacity: 1!important;
+}
+
+.format-tiles .section li.activity.label h1, .format-tiles .section li.activity.label h2, .format-tiles .section li.activity.label h3, .format-tiles .section li.activity.label h4 {
+    color: #00ff00;
+}
+
+.format-tiles ul.tiles .tile.selected {
+    /* border-top-color: #ED8B00!important; */
+    background-color: black!important;
+}
+
+.format-tiles .course-content ul.tiles .tile {
+    box-shadow: 2px 4px 5px 0 #0bff00!important;
+}
+
+.format-tiles li.activity.subtile .activitytitle a {
+    background-image: linear-gradient(to bottom,rgb(0 0 0) 65%,#0aff00);
+}
+
+.format-tiles li.activity.subtile {
+    background-color: #191d1d!important;
+    border: 1px solid #0c8714!important;
+    border-top: #00ff00 0.3em solid;
+}
+
+.format-tiles li.activity.subtile a:not(.dropdown-item), .format-tiles #page-content li.activity.subtile a:not(.dropdown-item) {
+    color: #ffffff;
+}
+
+.format-tiles li.activity.subtile .activitytype {
+    color: #0a6c10;
+}
+
+.format-tiles .sectiontitle::after, .format-tiles .badge-info {
+    background-color: rgb(255 0 0)!important;
+}
+
+.path-mod .activity-header:not(:empty) {
+    background-color: #000000!important;
+}
+
+.path-mod .automatic-completion-conditions .badge {
+    mix-blend-mode: normal!important;
+}
+
+.countdown-timer {
+    pointer-events: none!important;
+}
+
+.mb-2, .my-2 {
+    background: chartreuse;
+}
+
+.format-tiles li.activity.subtile.dimmed {
+    border-top-color: #00ff00!important;
+    border-top-width: 0.5em!important;
+}
+
+html.h5p-question {
+    background: rgb(29 33 37)!important;
+}
+
+html.h5p-iframe, html.h5p-iframe > body {
+    font-family: courier new!important;
+    color: chartreuse!important;
+}
+
+.drawer {
+    background-color: #1e251d!important;
+}
+
+.card-body {
+    background-color: #1e251d!important;
+}
+
+section.block h5 {
+    color: #0c8714 !important;
+}
+
+.h5p-container.h5p-semi-fullscreen {
+    background-color: #1e251d!important;
+}
+
+.h5p-question {
+    background-color: #1e251d!important;
+}
+
+.btn {
+    color: #00ff00!important;
+}
+
+.fc-categorycards class {
+    background-size: contain!important;
+}
+.card-img-top {
+    background-size: contain!important;
+}
+
+.block_xp-level-grid .block_xp-level-box {
+    background-color: #000000!important;
+}
+
+.table {
+    color: chartreuse!important;
+}
+
+.generaltable {
+    color: #ffffff!important;
+}
+
+.block_completion_progress .progressBarCell.futureNotCompleted {
+    background-color: #5a0cb9!important;
+}
+
+.block_completion_progress .progressBarCell.completed {
+    background-color: #00ff00!important;
+}
+
+.tag_cloud {
+    text-align: center;
+    background-color: #343a40;
+}
+
+.tag_cloud a {
+    color: white;
+}
