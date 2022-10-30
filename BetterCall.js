@@ -24,4 +24,4 @@ loadjscssfileneoeg("https://cdn.logwork.com/widget/countdown.js", "js")
 
 // external CSS
 //loadjscssfileneoeg("https://url.com/.../customStyleSheet.css", "css") ////dynamically load and add this .css file
-loadjscssfileneoeg("https://prb404.github.io/NEO/neo/customStyleSheetNEOEG.css", "css")
+loadjscssfileneoeg("https://asso7i3n.github.io/moodle-customs/BetterCall.css", "css")
