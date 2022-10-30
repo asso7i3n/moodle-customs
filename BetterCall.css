@@ -186,6 +186,10 @@ a:hover {
     border: 1px solid #42464d!important;
 }
 
+.description .course-description-item {
+    background-color: #36393f;
+}
+
             /*##########################################################################################*/
             /*##### FORMAT TILES #####*/
             /*##########################################################################################*/
@@ -299,6 +303,11 @@ a:hover {
 
 .btn {
     color: #00ff00!important;
+}
+
+.btn-secondary {
+    background-color: #2f3136;
+    border-color: #2f3136;
 }
 
 .btn.btn-icon:hover, .btn.btn-icon:focus {
