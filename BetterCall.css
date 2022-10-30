@@ -55,6 +55,15 @@ body {
     background: #79db75;
 }
 
+.activity-add, .block-add {
+    background-color: #2f3136;
+}
+
+.activity-add:hover, .block-add:hover {
+    cursor: pointer;
+    background-color: #3c3f45;
+}
+
 /*##########################################################################################*/
 /*##### NAVIGATION #####*/
 /*##########################################################################################*/
@@ -446,13 +455,13 @@ html.h5p-iframe, html.h5p-iframe > body {
     background-color: #00ff00!important;
 }
 
-.table-hover tbody tr:hover {
+.table-hover tbody tr {
     color: #ffffff;
     background-color: rgba(0,0,0,.075);
 }
 
 .table-hover tbody tr:hover {
-    color: #ffffff;
+    color: #00ff00;
     background-color: #202225;
 }
 
