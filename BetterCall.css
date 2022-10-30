@@ -322,6 +322,10 @@ a:hover {
     background-color: #202225!important;
 }
 
+.card-body:hover {
+    background-color: #18191c!important;
+}
+
 .card {
     border: #373a3f 1px solid;
     background-color: #2f3136!important;
