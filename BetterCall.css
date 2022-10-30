@@ -24,6 +24,28 @@ body {
     color: #0c8714 !important;
 }
 
+.maincalendar .calendarmonth .clickable:hover {
+    background-color: #18191c;
+}
+
+.modal-content {
+    background-color: #2f3136;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.form-control {
+    color: #00ff00!important;
+}
+
+.close {
+    color: #0f0;
+    text-shadow: 0 1px 0 #000;
+}
+
+.close:hover {
+    color: #10ff00;
+}
+
 /*##########################################################################################*/
 /*##### NAVIGATION #####*/
 /*##########################################################################################*/
@@ -315,7 +337,7 @@ a:hover {
 }
 
 .btn {
-    color: #00ff00!important;
+    color: #ffffff!important;
 }
 
 .btn-secondary {
