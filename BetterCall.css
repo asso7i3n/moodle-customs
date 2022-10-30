@@ -151,6 +151,19 @@ body {
     border-bottom: 9px solid #18191c;
 }
 
+.simplesearchform .collapse.show, .simplesearchform .collapsing {
+    background-color: #202225;
+}
+
+.btn-secondary:hover {
+    background-color: #18191c;
+    border-color: #2f3136;
+}
+
+.btn-secondary:focus, .btn-secondary.focus {
+    background-color: #18191c;
+}
+
 /*##########################################################################################*/
 /*##### LINKS #####*/
 /*##########################################################################################*/
