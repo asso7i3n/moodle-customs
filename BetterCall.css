@@ -2,12 +2,12 @@
 /*##### GLOBAL #####*/
 /*##########################################################################################*/
 
-@import url('http://fonts.cdnfonts.com/css/proxima-nova-2');
+@import url('http://fonts.cdnfonts.com/css/b612-mono');
 
 body {
 	background-color: #2f3136!important ;
     color: #f8f9fa;
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: 'B612 Mono', monospace, sans-serif;
 }
 
 .main-inner {
@@ -65,6 +65,7 @@ body {
 .primary-navigation .navigation .nav-link {
     height: 60px;
     color: #fff;
+    font-weight: 600;
     border-top: 3px solid transparent;
 }
 
@@ -111,6 +112,19 @@ body {
 
 .list-group-item {
     background-color: #202225;
+}
+
+.card-header {
+    background-color: #202225;
+}
+
+.card-header:hover {
+    background-color: #3c3f45;
+}
+
+.message-app .list-group .list-group-item:hover {
+    color: #fff;
+    background-color: #3c3f45;
 }
 
 /*##########################################################################################*/
@@ -234,7 +248,7 @@ a:hover {
 }
 
 .mb-2, .my-2 {
-    background: #202225;
+    background: transparent;
 }
 
 .drawer {
