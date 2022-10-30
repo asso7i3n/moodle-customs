@@ -2,9 +2,12 @@
 /*##### GLOBAL #####*/
 /*##########################################################################################*/
 
+@import url('https://fonts.cdnfonts.com/css/uni-sans-regular');
+
 body {
 	background-color: #2f3136!important ;
     color: #f8f9fa;
+    font-family: 'Uni Sans Demo', sans-serif;
 }
 
 .main-inner {
