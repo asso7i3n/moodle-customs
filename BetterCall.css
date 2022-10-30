@@ -2,12 +2,12 @@
 /*##### GLOBAL #####*/
 /*##########################################################################################*/
 
-@import url('https://fonts.cdnfonts.com/css/uni-sans-regular');
+@import url('http://fonts.cdnfonts.com/css/proxima-nova-2');
 
 body {
 	background-color: #2f3136!important ;
     color: #f8f9fa;
-    font-family: 'Uni Sans Demo', sans-serif;
+    font-family: 'Proxima Nova', sans-serif;
 }
 
 .main-inner {
@@ -103,6 +103,14 @@ body {
 
 .drawer-toggles .drawer-toggler .btn {
     background-color: #202225!important;
+}
+
+.message-app {
+    background-color: #202225;
+}
+
+.list-group-item {
+    background-color: #202225;
 }
 
 /*##########################################################################################*/
