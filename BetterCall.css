@@ -25,6 +25,11 @@ body {
 /*##### NAVIGATION #####*/
 /*##########################################################################################*/
 
+.primary-navigation .navigation .nav-link:hover, .primary-navigation .navigation .nav-link.active, .primary-navigation .navigation .nav-link:focus {
+    color: #fff!important;
+    background-color: #3c3f45!important;
+}
+
 .navbar.fixed-top {
     background-color: #202225!important;
     border-bottom: #373a3f 1px solid;
@@ -71,7 +76,7 @@ body {
 }
 
 .navbar-nav .nav-link, .navbar-nav .btn, .navbar-nav a.btn, .navbar-nav .login a {
-    color: #8b8f93;
+    color: #8b8f93!important;
 }
 
 .courseindex .courseindex-item .courseindex-link, .courseindex .courseindex-item .courseindex-chevron {
@@ -285,6 +290,14 @@ html.h5p-iframe, html.h5p-iframe > body {
 /*##########################################################################################*/
 /*##### BLOCKS #####*/
 /*##########################################################################################*/
+
+.block_xp nav .nav-button {
+    color: #f8f9fa!important;
+}
+
+.block_xp nav .nav-button:hover {
+    background: #3c3f45!important;
+}
 
 .block_xp-level-grid .block_xp-level-box {
     background-color: #000000!important;
