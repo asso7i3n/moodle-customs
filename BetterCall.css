@@ -185,6 +185,12 @@ body {
     background-color: #202225;
 }
 
+
+.simplesearchform .btn-submit {
+    border-color: #2f3136;
+    color: #6a737b;
+}
+
 .btn-secondary:hover {
     background-color: #18191c;
     border-color: #2f3136;
@@ -242,7 +248,7 @@ a:hover {
 }
 
 .format-tiles #page .course-content ul li.section.main {
-    background-color: #000;
+    background-color: #1d2125;
 }
 
 .format-tiles .course-content .section .activity:hover {
@@ -259,6 +265,10 @@ a:hover {
 
 .format-tiles .sectiontitle h2 {
     color: #ffffff!important;
+}
+
+.format-tiles .course-content ul.tiles .tile, .format-tiles li.section:not(#section-0) .course-section-header {
+    border-radius: 42px;
 }
 
 .format-tiles .course-content ul.tiles .tile.tile-hidden, .format-tiles .course-content ul.tiles .tile.tile-restricted {
@@ -280,6 +290,11 @@ a:hover {
 
 .format-tiles .course-content ul.tiles .tile {
     box-shadow: 2px 4px 5px 0 #0bff00!important;
+    background-color: #18191c;
+}
+
+.format-tiles .tiles-top-button {
+    background-color: #1d2125;
 }
 
 .format-tiles li.activity.subtile .activitytitle a {
@@ -408,6 +423,7 @@ html.h5p-iframe, html.h5p-iframe > body {
 
 .block_xp nav .nav-button {
     color: #f8f9fa!important;
+    border-radius: 8px;
 }
 
 .block_xp nav .nav-button:hover {
