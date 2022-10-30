@@ -223,7 +223,7 @@ a:hover {
 }
 
 .mb-2, .my-2 {
-    background: chartreuse;
+    background: #202225;
 }
 
 .drawer {
@@ -231,11 +231,21 @@ a:hover {
 }
 
 .card-body {
-    background-color: #2f3136!important;
+    background-color: #202225!important;
 }
 
 .card {
     border: #373a3f 1px solid;
+    background-color: #2f3136!important;
+}
+
+.bg-white {
+    background-color: #2f3136!important;
+}
+
+.form-control {
+    background-color: #40444b!important;
+    border: 1px solid #40444b!important;
 }
 
 .btn {
