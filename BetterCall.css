@@ -277,7 +277,7 @@ a:hover {
 }
 
 .format-tiles .course-content ul.tiles .tile, .format-tiles li.section:not(#section-0) .course-section-header {
-    border-radius: 42px;
+    border-radius: 42px!important;
 }
 
 .format-tiles .course-content ul.tiles .tile.tile-hidden, .format-tiles .course-content ul.tiles .tile.tile-restricted {
