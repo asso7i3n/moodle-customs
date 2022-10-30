@@ -34,6 +34,10 @@ body {
     background-color: #373a3f!important;
 }
 
+.border-left {
+    border-left: 1px solid #373a3f!important;
+}
+
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
     color: #78db74;
     background-color: #1d2125!important;
@@ -45,9 +49,9 @@ body {
 }
 
 .secondary-navigation .navigation {
-    border-top: 1px solid #357a32!important;
-    border-bottom: 1px solid #78db74!important;
-    background-color: #000!important;
+    border-top: 1px solid #42464d!important;
+    border-bottom: 1px solid #42464d!important;
+    background-color: #1d2125!important;
 }
 
 .primary-navigation .navigation .nav-link {
@@ -57,13 +61,40 @@ body {
 }
 
 .moremenu .nav-tabs {
-    background: black;
+    background: #1d2125;
 }
 
 .moremenu .nav-link:hover,
 .moremenu .nav-link:focus {
   border-color: transparent;
   background-color: black;
+}
+
+.navbar-nav .nav-link, .navbar-nav .btn, .navbar-nav a.btn, .navbar-nav .login a {
+    color: #8b8f93;
+}
+
+.courseindex .courseindex-item .courseindex-link, .courseindex .courseindex-item .courseindex-chevron {
+    color: #dcddde;
+}
+
+.courseindex .courseindex-item .courseindex-link:hover, .courseindex .courseindex-item .courseindex-link:focus, .courseindex .courseindex-item .courseindex-chevron:hover, .courseindex .courseindex-item .courseindex-chevron:focus {
+    color: #fff;
+    text-decoration: none;
+    /* background-color: #42464d; */
+}
+
+.courseindex .courseindex-section:hover {
+    border-left: solid 3px transparent;
+    background-color: #42464d;
+}
+
+.footer-popover .btn-footer-popover {
+    background-color: #202225!important;
+}
+
+.drawer-toggles .drawer-toggler .btn {
+    background-color: #202225!important;
 }
 
 /*##########################################################################################*/
@@ -82,6 +113,10 @@ a:hover {
 /*##########################################################################################*/
 /*##### COURSE #####*/
 /*##########################################################################################*/
+
+.page-context-header .page-header-headings {
+    color: #fff;
+}
 
 .course-section {
     list-style: none;
@@ -195,11 +230,15 @@ a:hover {
 }
 
 .card {
-    border-bottom: #373a3f 1px solid;
+    border: #373a3f 1px solid;
 }
 
 .btn {
     color: #00ff00!important;
+}
+
+.btn.btn-icon:hover, .btn.btn-icon:focus {
+    background-color: #3c3f45;
 }
 
 .fc-categorycards class {
