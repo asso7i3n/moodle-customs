@@ -369,7 +369,7 @@ a:hover {
 }
 
 .table {
-    color: chartreuse!important;
+    color: white!important;
 }
 
 .generaltable {
@@ -414,6 +414,10 @@ html.h5p-iframe, html.h5p-iframe > body {
     background: #3c3f45!important;
 }
 
+.block_xp-table tr.highlight-row>td {
+    background-color: #18191c!important;
+}
+
 .block_xp-level-grid .block_xp-level-box {
     background-color: #000000!important;
 }
@@ -424,6 +428,16 @@ html.h5p-iframe, html.h5p-iframe > body {
 
 .block_completion_progress .progressBarCell.completed {
     background-color: #00ff00!important;
+}
+
+.table-hover tbody tr:hover {
+    color: #ffffff;
+    background-color: rgba(0,0,0,.075);
+}
+
+.table-hover tbody tr:hover {
+    color: #ffffff;
+    background-color: #202225;
 }
 
 .tag_cloud {
