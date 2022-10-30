@@ -2,7 +2,7 @@
 /*##### GLOBAL #####*/
 /*##########################################################################################*/
 
-@import url('http://fonts.cdnfonts.com/css/b612-mono');
+@import url('https://fonts.cdnfonts.com/css/b612-mono');
 
 body {
 	background-color: #2f3136!important ;
@@ -131,7 +131,7 @@ body {
     background-color: #18191c;
     border: 1px solid #18191c;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    border-radius: 10% 30% 50% 70%;
+    border-radius: 5px;
 }
 
 .popover-region-footer-container {
