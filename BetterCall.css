@@ -46,6 +46,15 @@ body {
     color: #10ff00;
 }
 
+.userpicture {
+    border: 2px solid #fff;
+    background: #79db75;
+}
+
+.rounded-circle {
+    background: #79db75;
+}
+
 /*##########################################################################################*/
 /*##### NAVIGATION #####*/
 /*##########################################################################################*/
@@ -87,7 +96,6 @@ body {
 .primary-navigation .navigation .nav-link {
     height: 60px;
     color: #fff;
-    font-weight: 600;
     border-top: 3px solid transparent;
 }
 
