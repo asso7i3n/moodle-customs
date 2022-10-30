@@ -127,6 +127,30 @@ body {
     background-color: #3c3f45;
 }
 
+.popover-region-container {
+    background-color: #18191c;
+    border: 1px solid #18191c;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10% 30% 50% 70%;
+}
+
+.popover-region-footer-container {
+    border-top: 1px solid #42464d;
+    background-color: #18191c;
+}
+
+.popover-region-header-container {
+    border-bottom: 1px solid #42464d
+;}
+
+.popover-region-toggle::before {
+    border-bottom: 10px solid #18191c;
+}
+
+.popover-region-toggle::after {
+    border-bottom: 9px solid #18191c;
+}
+
 /*##########################################################################################*/
 /*##### LINKS #####*/
 /*##########################################################################################*/
