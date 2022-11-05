@@ -12,10 +12,7 @@ body {
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-}
-
-.scrollable-element {
-  scrollbar-color: dark;
+      scrollbar-color: dark;
 }
 
 @keyframes fadeInAnimation {
