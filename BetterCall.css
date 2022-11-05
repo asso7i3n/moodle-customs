@@ -57,7 +57,29 @@ body {
     border-right:5px solid #2f3136
 }
 .drawercontent::-webkit-scrollbar-thumb:hover {
-  background-color: #495057;
+  background-color: #18191c;
+}
+
+#page.drawers {
+  margin-top: 60px;
+  scrollbar-width: thin;
+  scrollbar-color: #79db75 #2f3136;
+}
+#page.drawers::-webkit-scrollbar {
+  width: 16px;
+}
+#page.drawers::-webkit-scrollbar-track {
+    background-color:#2f3136;
+    border-radius: 10px;
+    border-right:5px solid #2f3136
+}
+#page.drawers::-webkit-scrollbar-thumb {
+    background-color:#79db75;
+    border-radius: 10px;
+    border-right:5px solid #2f3136
+}
+#page.drawers::-webkit-scrollbar-thumb:hover {
+  background-color: #18191c;
 }
 
   /* Firefox */
