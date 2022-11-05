@@ -45,6 +45,10 @@ body {
      }
 }
 
+.editing .activity-item:hover {
+    background-color: #357a32;
+}
+
 .main-inner {
     background: #36393f!important;
 }
