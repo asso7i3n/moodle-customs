@@ -14,6 +14,10 @@ body {
     animation-fill-mode: forwards;
 }
 
+.scrollable-element {
+  scrollbar-color: dark;
+}
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0.3;
@@ -121,6 +125,14 @@ body {
     color: #f8f9fa;
 }
 
+.fp-iconview .fp-thumbnail {
+    border: 1px solid transparent;
+}
+
+.fp-iconview .fp-filename-field .fp-filename {
+    background: transparent;
+}
+
 .modchooser .modal-footer {
     background: #2f3136;
 }
@@ -131,6 +143,10 @@ body {
 
 .modchoosercontainer .optionscontainer .option .optioninfo a, .modchoosercontainer .searchresultitemscontainer .option .optioninfo a:hover {
     color: #fff;
+}
+
+.block .block-controls .dropdown-toggle {
+    color: #ffffff;
 }
 
 /*##########################################################################################*/
@@ -187,6 +203,7 @@ body {
 .moremenu .nav-tabs {
     background: #1d2125;
 }
+
 
 .moremenu .nav-link:hover,
 .moremenu .nav-link:focus {
