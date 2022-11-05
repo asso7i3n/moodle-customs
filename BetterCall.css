@@ -22,8 +22,30 @@ body {
 
 }
 
+.notification-area .content-area .header .image-container {
+    filter: drop-shadow(1px 1px 0px #00ff00);
+}
+
+.content-item-container.notification .content-item-body .notification-image {
+    filter: drop-shadow(1px 1px 0px #00ff00);
+}
+
+.notification-area {
+    border: 1px solid #00ff00;
+}
+
+.notification-area .content-area .header {
+    border-bottom: 1px solid #373a3f;
+}
+
 .content-item-container.unread {
     background-color: #357a32;
+}
+
+.content-item-container.selected {
+    background-color: #357a32;
+    color: #fff;
+    border-color: #357a32;
 }
 
 .dropdown-item {
