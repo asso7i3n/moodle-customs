@@ -19,7 +19,6 @@ body {
     background-color: #18191c;
     border: 1px solid #00ff00;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
 }
 
 .notification-area .content-area .header .image-container {
@@ -32,6 +31,19 @@ body {
 
 .statusbox.inactive {
     background-color: #40444b;
+}
+
+.popover {
+    background-color: #2f3136;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.popover.footer .popover-body .footer-section a .icon {
+    color: #f8f9fa;
+}
+
+.popover-body {
+    color: #00ff00;
 }
 
 div.criteria-description {
