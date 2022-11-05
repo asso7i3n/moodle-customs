@@ -46,6 +46,16 @@ body {
     color: #00ff00;
 }
 
+.popover.footer .popover-body .footer-section a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.popover.footer .popover-body .footer-section a:hover {
+    color: #00ff00;
+    text-decoration: underline;
+}
+
 div.criteria-description {
     background: none repeat scroll 0 0 #40444b;
     border: 1px solid #0f0;
