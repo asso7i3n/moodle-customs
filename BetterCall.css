@@ -22,6 +22,10 @@ body {
 
 }
 
+.content-item-container.unread {
+    background-color: #357a32;
+}
+
 .dropdown-item {
     color: #ffffff;
 }
