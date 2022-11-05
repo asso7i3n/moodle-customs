@@ -293,6 +293,14 @@ body {
     color: #ffffff;
 }
 
+.block_xp .xp-bg-gray-100 {
+    background-color: #79db75;
+}
+
+.block-xp-filters-wrapper .rule-type-ruleset>.rule-definition {
+    background-color: #40444b;
+}
+
 /*##########################################################################################*/
 /*##### NAVIGATION #####*/
 /*##########################################################################################*/
