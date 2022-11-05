@@ -26,6 +26,14 @@ body {
     color: #ffffff;
 }
 
+.editor_atto_notification .atto_info {
+    background-color: #40444b;
+}
+
+.editor_atto_notification .atto_info, .editor_atto_notification .atto_warning {
+    background-color: #40444b;
+}
+
 .custom-select {
     background: #1d2125;
     color: #79db75;
