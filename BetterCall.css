@@ -9,7 +9,7 @@ body {
 	background-color: #2f3136!important ;
     color: #f8f9fa;
     font-family: 'Montserrat Ace', 'B612 Mono', sans-serif;
-    animation: fadeInAnimation ease 3s
+    animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
