@@ -3,11 +3,12 @@
 /*##########################################################################################*/
 
 @import url('https://fonts.cdnfonts.com/css/b612-mono');
+@import url('https://fonts.cdnfonts.com/css/montserrat-ace');
 
 body {
 	background-color: #2f3136!important ;
     color: #f8f9fa;
-    font-family: 'B612 Mono', sans-serif;
+    font-family: 'Montserrat Ace', 'B612 Mono', sans-serif;
 }
 
 .main-inner {
@@ -62,6 +63,22 @@ body {
 .activity-add:hover, .block-add:hover {
     cursor: pointer;
     background-color: #3c3f45;
+}
+
+.bg-light {
+    background-color: #40444b!important;
+}
+
+.border {
+    border: 1px solid #42464d!important;
+}
+
+.table thead th {
+    border-bottom: 2px solid #42464d!important;
+}
+
+.generaltable th, .generaltable td {
+    border-top: 1px solid #42464d!important;
 }
 
 /*##########################################################################################*/
