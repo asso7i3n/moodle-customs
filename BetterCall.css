@@ -30,6 +30,15 @@ body {
     filter: drop-shadow(1px 1px 0px #00ff00);
 }
 
+.statusbox.inactive {
+    background-color: #40444b;
+}
+
+div.criteria-description {
+    background: none repeat scroll 0 0 #40444b;
+    border: 1px solid #0f0;
+}
+
 .notification-area {
     border: 1px solid #00ff00;
 }
