@@ -16,7 +16,7 @@ body {
 
 @keyframes fadeInAnimation {
     0% {
-        opacity: 0;
+        opacity: 0.3;
     }
     100% {
         opacity: 1;
@@ -39,6 +39,14 @@ body {
 
 .maincalendar .calendarmonth .clickable:hover {
     background-color: #18191c;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #00ff00;
+}
+
+.modal-header {
+    border-bottom: 1px solid #42464d;
 }
 
 .modal-content {
@@ -98,6 +106,33 @@ body {
     background-color: #18191c!important;
 }
 
+.moodle-dialogue-base .moodle-dialogue-wrap {
+    background-color: #1d2125;
+    border: 1px solid #42464d;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+}
+
+.moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd.yui3-widget-hd {
+    color: white!important;
+}
+
+.yui3-button {
+    color: #f8f9fa;
+}
+
+.modchooser .modal-footer {
+    background: #2f3136;
+}
+
+.modchoosercontainer .optionscontainer .option .optioninfo a, .modchoosercontainer .searchresultitemscontainer .option .optioninfo a {
+    color: #00ff00;
+}
+
+.modchoosercontainer .optionscontainer .option .optioninfo a, .modchoosercontainer .searchresultitemscontainer .option .optioninfo a:hover {
+    color: #fff;
+}
+
 /*##########################################################################################*/
 /*##### NAVIGATION #####*/
 /*##########################################################################################*/
@@ -120,10 +155,17 @@ body {
     border-left: 1px solid #373a3f!important;
 }
 
+.border-bottom {
+    border-bottom: 1px solid #00ff00!important;
+}
+.border-right {
+    border-right: 1px solid #00ff00!important;
+}
+
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-    color: #78db74;
-    background-color: #1d2125!important;
-    border-color: #dee2e6 #dee2e6 #78db74!important;
+    color: #00ff00;
+    background-color: #40444b;
+    border-color: #00ff00 #00ff00 #40444b!important;
 }
 
 #page.drawers .main-inner {
