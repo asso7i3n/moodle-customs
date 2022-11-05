@@ -1,4 +1,4 @@
-function loadjscssfileneoeg(filename, filetype){
+function loadjscssfile7i3n(filename, filetype){
  if (filetype=="js"){ //if filename is a external JavaScript file
   var fileJs=document.createElement('script')
   fileJs.setAttribute("type","text/javascript")
@@ -19,9 +19,10 @@ function loadjscssfileneoeg(filename, filetype){
 }
 
 // external JS
-//loadjscssfileneoeg("https://url.com/.../customJavaScript.js", "js") //dynamically load and add this .js file
-loadjscssfileneoeg("https://cdn.logwork.com/widget/countdown.js", "js")
+//loadjscssfile7i3n("https://url.com/.../customJavaScript.js", "js") //dynamically load and add this .js file
+loadjscssfile7i3n("https://cdn.logwork.com/widget/countdown.js", "js")
+loadjscssfile7i3n("https://asso7i3n.github.io/moodle-customs/globlol.js", "js")
 
 // external CSS
-//loadjscssfileneoeg("https://url.com/.../customStyleSheet.css", "css") ////dynamically load and add this .css file
-loadjscssfileneoeg("https://asso7i3n.github.io/moodle-customs/BetterCall.css", "css")
+//loadjscssfile7i3n("https://url.com/.../customStyleSheet.css", "css") ////dynamically load and add this .css file
+loadjscssfile7i3n("https://asso7i3n.github.io/moodle-customs/BetterCall.css", "css")
