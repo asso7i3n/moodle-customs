@@ -16,6 +16,29 @@ body {
 }
 
 /* ===== Scrollbar CSS ===== */
+  /* Boost */
+.visual-scroll-x{
+    scrollbar-width:thin;
+    scrollbar-color:#79db75 #2f3136;
+    -ms-overflow-style:-ms-autohiding-scrollbar
+}
+.visual-scroll-x::-webkit-scrollbar{
+    height:8px;
+    -webkit-appearance:none;
+    width: 16px;
+    appearance:none
+}
+.visual-scroll-x::-webkit-scrollbar-thumb{
+    background-color:#79db75;
+    border-radius: 10px;
+    border-right:5px solid #2f3136
+}
+.visual-scroll-x::-webkit-scrollbar-track{
+    background-color:#2f3136;
+    border-radius: 10px;
+    border-right:5px solid #2f3136
+}
+
   /* Firefox */
   * {
     scrollbar-width: auto;
@@ -36,6 +59,7 @@ body {
     border-radius: 10px;
     border: 5px solid #2f3136;
   }
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0.3;
