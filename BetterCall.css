@@ -25,7 +25,7 @@ body {
 .visual-scroll-x::-webkit-scrollbar{
     height:8px;
     -webkit-appearance:none;
-    width: 16px;
+    width: 12px;
     appearance:none
 }
 .visual-scroll-x::-webkit-scrollbar-thumb{
@@ -44,7 +44,7 @@ body {
 }
 
 .drawercontent::-webkit-scrollbar {
-  width: 16px;
+  width: 12px;
 }
 .drawercontent::-webkit-scrollbar-track {
     background-color:#2f3136;
@@ -66,7 +66,7 @@ body {
   scrollbar-color: #79db75 #2f3136;
 }
 #page.drawers::-webkit-scrollbar {
-  width: 16px;
+  width: 12px;
 }
 #page.drawers::-webkit-scrollbar-track {
     background-color:#2f3136;
@@ -81,6 +81,36 @@ body {
 #page.drawers::-webkit-scrollbar-thumb:hover {
   background-color: #18191c;
 }
+
+.reportbuilder-wrapper .filters-dropdown .reportbuilder-filters-sidebar {
+  max-height: calc(100vh - 60px - 1rem);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #6a737b #fff;
+}
+.reportbuilder-wrapper
+  .filters-dropdown
+  .reportbuilder-filters-sidebar::-webkit-scrollbar {
+  width: 12px;
+}
+.reportbuilder-wrapper
+  .filters-dropdown
+  .reportbuilder-filters-sidebar::-webkit-scrollbar-track {
+  background: #fff;
+}
+.reportbuilder-wrapper
+  .filters-dropdown
+  .reportbuilder-filters-sidebar::-webkit-scrollbar-thumb {
+  background-color: #6a737b;
+  border-radius: 20px;
+  border: 3px solid #fff;
+}
+.reportbuilder-wrapper
+  .filters-dropdown
+  .reportbuilder-filters-sidebar::-webkit-scrollbar-thumb:hover {
+  background-color: #495057;
+}
+
 
   /* Firefox */
   * {
