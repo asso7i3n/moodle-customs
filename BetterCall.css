@@ -31,12 +31,12 @@ body {
 .visual-scroll-x::-webkit-scrollbar-thumb{
     background-color:#79db75;
     border-radius: 10px;
-    border:none
+    border: 4px #2f3136 solid
 }
 .visual-scroll-x::-webkit-scrollbar-track{
     background-color:#2f3136;
     border-radius: 10px;
-    border:none
+    border: 4px #2f3136 solid
 }
 
 .drawercontent{
@@ -49,12 +49,12 @@ body {
 .drawercontent::-webkit-scrollbar-track {
     background-color:#2f3136;
     border-radius: 10px;
-    border:none
+    border: 4px #2f3136 solid
 }
 .drawercontent::-webkit-scrollbar-thumb {
     background-color:#79db75;
     border-radius: 10px;
-    border:none
+    border: 4px #2f3136 solid
 }
 .drawercontent::-webkit-scrollbar-thumb:hover {
   background-color: #18191c;
@@ -71,12 +71,12 @@ body {
 #page.drawers::-webkit-scrollbar-track {
     background-color:#2f3136;
     border-radius: 10px;
-    border:none
+    border: 4px #2f3136 solid
 }
 #page.drawers::-webkit-scrollbar-thumb {
     background-color:#79db75;
     border-radius: 10px;
-    border:none
+    border: 4px #2f3136 solid
 }
 #page.drawers::-webkit-scrollbar-thumb:hover {
   background-color: #18191c;
@@ -103,7 +103,7 @@ body {
   .reportbuilder-filters-sidebar::-webkit-scrollbar-thumb {
   background-color: #6a737b;
   border-radius: 20px;
-  border: border:none
+  border: 4px #2f3136 solid
 }
 .reportbuilder-wrapper
   .filters-dropdown
@@ -130,7 +130,7 @@ body {
   *::-webkit-scrollbar-thumb {
     background-color: #79db75;
     border-radius: 10px;
-    border: border:none
+    border: 4px #2f3136 solid
   }
 
 @keyframes fadeInAnimation {
