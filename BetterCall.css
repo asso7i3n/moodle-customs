@@ -12,7 +12,7 @@ body {
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-      scrollbar-color: dark;
+    scrollbar-color: dark;
 }
 
 /* ===== Scrollbar CSS ===== */
@@ -31,12 +31,12 @@ body {
 .visual-scroll-x::-webkit-scrollbar-thumb{
     background-color:#79db75;
     border-radius: 10px;
-    border-right:5px solid #2f3136
+    border:none
 }
 .visual-scroll-x::-webkit-scrollbar-track{
     background-color:#2f3136;
     border-radius: 10px;
-    border-right:5px solid #2f3136
+    border:none
 }
 
 .drawercontent{
@@ -49,12 +49,12 @@ body {
 .drawercontent::-webkit-scrollbar-track {
     background-color:#2f3136;
     border-radius: 10px;
-    border-right:5px solid #2f3136
+    border:none
 }
 .drawercontent::-webkit-scrollbar-thumb {
     background-color:#79db75;
     border-radius: 10px;
-    border-right:5px solid #2f3136
+    border:none
 }
 .drawercontent::-webkit-scrollbar-thumb:hover {
   background-color: #18191c;
@@ -71,12 +71,12 @@ body {
 #page.drawers::-webkit-scrollbar-track {
     background-color:#2f3136;
     border-radius: 10px;
-    border-right:5px solid #2f3136
+    border:none
 }
 #page.drawers::-webkit-scrollbar-thumb {
     background-color:#79db75;
     border-radius: 10px;
-    border-right:5px solid #2f3136
+    border:none
 }
 #page.drawers::-webkit-scrollbar-thumb:hover {
   background-color: #18191c;
@@ -103,7 +103,7 @@ body {
   .reportbuilder-filters-sidebar::-webkit-scrollbar-thumb {
   background-color: #6a737b;
   border-radius: 20px;
-  border: 3px solid #fff;
+  border: border:none
 }
 .reportbuilder-wrapper
   .filters-dropdown
@@ -130,7 +130,7 @@ body {
   *::-webkit-scrollbar-thumb {
     background-color: #79db75;
     border-radius: 10px;
-    border: 5px solid #2f3136;
+    border: border:none
   }
 
 @keyframes fadeInAnimation {
