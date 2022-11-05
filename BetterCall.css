@@ -39,6 +39,10 @@ body {
     border-right:5px solid #2f3136
 }
 
+.drawercontent{
+    scrollbar-color:#79db75 #2f3136
+}
+
   /* Firefox */
   * {
     scrollbar-width: auto;
