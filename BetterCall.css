@@ -43,6 +43,23 @@ body {
     scrollbar-color:#79db75 #2f3136
 }
 
+.drawercontent::-webkit-scrollbar {
+  width: 16px;
+}
+.drawercontent::-webkit-scrollbar-track {
+    background-color:#2f3136;
+    border-radius: 10px;
+    border-right:5px solid #2f3136
+}
+.drawercontent::-webkit-scrollbar-thumb {
+    background-color:#79db75;
+    border-radius: 10px;
+    border-right:5px solid #2f3136
+}
+.drawercontent::-webkit-scrollbar-thumb:hover {
+  background-color: #495057;
+}
+
   /* Firefox */
   * {
     scrollbar-width: auto;
